@@ -72,6 +72,11 @@ section{
     color: #fff;
     margin: 0 0 45px;
 }
+.hero-text h2{
+    line-height: 1;
+    color: #a8a4a4;
+    margin: 0 0 15px;
+}
 .hero-text h4{
     font-size: 18px;
     font-weight: 600;
