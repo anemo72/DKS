@@ -18,8 +18,11 @@ header{
     padding: 15px 9%;
     background: transparent;
 }
-.hero-text h4 .ohh{
+h4 .ohh{
    color: #464646;
+}
+h4 .oh{
+    color: #fff
 }
 .logo{
     font-size: 30px;
