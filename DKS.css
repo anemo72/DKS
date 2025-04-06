@@ -171,7 +171,7 @@ cursor: pointer;
     transition: 0.4s;
   }
  .mobile-menu li{
-    margin-bottom: 15px;
+    margin-bottom: 10px;
  }
   .open .bar1 {
     -webkit-transform: rotate(-45deg) translate(-6px, 6px);
