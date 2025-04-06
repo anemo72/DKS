@@ -205,6 +205,10 @@ cursor: pointer;
     height: calc(100vh - 50px);
     width: 100%;
   }
+
+.ohh{
+display: none;
+}
   
 
 
@@ -287,5 +291,11 @@ cursor: pointer;
     }
     .hero-text a{
         padding: 15px;
+    }
+.ohh{
+    display: block;
+}
+    .oh{
+        display: none;
     }
 }
