@@ -301,4 +301,7 @@ h4 .ohh{
    h4 .oh{
         display: none;
     }
+    .hero-text h4{
+        color: #464646;
+}
 }
