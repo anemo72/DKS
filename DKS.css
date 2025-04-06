@@ -206,7 +206,7 @@ cursor: pointer;
     width: 100%;
   }
 
-.ohh{
+h4 .ohh{
 display: none;
 }
   
@@ -292,10 +292,10 @@ display: none;
     .hero-text a{
         padding: 15px;
     }
-.ohh{
+h4 .ohh{
     display: block;
 }
-    .oh{
+   h4 .oh{
         display: none;
     }
 }
