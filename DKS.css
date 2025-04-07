@@ -178,6 +178,7 @@ cursor: pointer;
   }
  .mobile-menu li{
     margin-bottom: 10px;
+     transition: 0.4s;
  }
   .open .bar1 {
     -webkit-transform: rotate(-45deg) translate(-6px, 6px);
@@ -304,4 +305,7 @@ h4 .ohh{
     .hero-text h4{
         color: #464646;
 }
+    .scroll-down{
+        display: none;
+    }
 }
