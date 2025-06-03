@@ -626,7 +626,15 @@ i{
     }
 
     .logo-name{
-        font-size: 15px
-        margin-left: 10px;
+visibility: hidden;
+    position: relative;
+    }
+
+    .logo-name::after{
+        visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "Server";
     }
 }
