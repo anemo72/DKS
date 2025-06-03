@@ -539,13 +539,21 @@ i{
 }
 
 @media screen and (max-width: 750px){
+    body{
+        width: 100vw;
+        height: 100vh;
+    }
     header{
         padding: 0 10px;
+                overflow: hidden;
+
     }
 
 
     .footer p{
         display: none;
+                overflow: hidden;
+
     }
     .head-left button{
         display: none;
