@@ -617,8 +617,8 @@ i{
         font-size: 50px;
         max-width: 300px;
     }
-    .footer ul{
-        margin-left: 150px;
+    .footer{
+        display: none;
     }
 
     .stones{
