@@ -335,13 +335,7 @@ footer {
 }
 
 @media(max-width: 880px){
-    .footy .footer-left, .footy .footer-center, .footy .footer-right{
-        display: block;
-        width: 100%;
-        margin-bottom: 40px;
-        text-align: center;
-    }
-    .footy .footer-center i{
-        margin-left: 0;
+    .footy{
+        display: none;
     }
 }
