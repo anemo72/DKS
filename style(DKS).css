@@ -538,7 +538,7 @@ i{
     margin-left: 25px;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 740px){
     
     body{
         width: 100%;
@@ -628,6 +628,8 @@ i{
     .logo-name{
 visibility: hidden;
     position: relative;
+                margin-left: 155px;
+        
     }
 
     .logo-name::after{
