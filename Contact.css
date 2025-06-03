@@ -1,0 +1,347 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Outfit;
+    background: linear-gradient(black, rgb(43, 43, 43));
+}
+
+.contact-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.contact-left-title {
+    font-weight: 600;
+    background: linear-gradient(to right, #4acfee, #53f8c9, #02d79a, #6070fd, #2a46ff, #0099ff, #4acfee);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate-gradient 2.5s linear infinite;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+@keyframes animate-gradient {
+    to {
+        background-position: 200%;
+    }
+}
+
+.contact-left-title hr {
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.Inputs {
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 17.5px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+.contact-left textarea {
+    height: 140px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.Inputs .placeholder {
+    font-size: 50px;
+}
+
+.Inputs:focus {
+    border: 2px solid #edff66f8;
+}
+
+.Inputs::placeholder {
+    color: #a9a9a9;
+}
+
+.contact-left button {
+    display: flex;
+    align-items: center;
+    padding: 12px 27px;
+    font-size: 10px;
+    color: #fff;
+    gap: 10px;
+    border: 2px solid rgb(168, 168, 168);
+    border-radius: 50px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.bb{
+    box-sizing: border-box;
+    border: 2px solid black;
+    background: transparent;
+    color: white;
+    margin-left: 30px;
+    padding-top: 30px;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.bb:hover{
+    color: #ffbdbd;
+    stroke: white;
+        text-shadow: 0 0 25px white;
+
+}
+
+.contact-left button img {
+    height: 15px;
+}
+
+.contact-right img {
+    width: 500px;
+}
+
+@media (max-width: 800px) {
+    .Inputs {
+        width: 80vw;
+    }
+
+    .contact-right {
+        display: none;
+    }
+
+    .contact-left-title {
+        font-size: 32px;
+    }
+}
+
+.loading {
+    font-family: "Michroma", sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, #000000, #0c0c0c, #000000);
+    z-index: 9999;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: -1.5rem;
+    align-items: center;
+    justify-content: center;
+    color: #191654;
+}
+
+#svg {
+    height: 150px;
+    width: 150px;
+    stroke: #ffffff;
+    fill-opacity: 0;
+    stroke-width: 1.3px;
+    stroke-dasharray: 4500;
+    animation: draw 20s ease;
+}
+
+@keyframes draw {
+    0% {
+        stroke-dashoffset: 4500;
+    }
+
+    100% {
+        stroke-dashoffset: 0;
+    }
+
+}
+
+.logo-name {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+@media (max-height:800px) {
+    footer {
+        position: static;
+    }
+
+    .contact-container {
+        padding-top: 40px;
+    }
+}
+
+.footy {
+    background-color: #2d2a30;
+    box-sizing: border-box;
+    widows: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+}
+
+.footy .footer-left, .footy .footer-center, .footy .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footy .footer-left {
+    width: 30%;
+}
+
+.footy h3 {
+    color: white;
+    font: normal 36px 'cookie', cursive;
+    margin: 0;
+}
+
+.footy h3 span {
+    color: #666;
+}
+
+.footy .footer-links {
+    color: white;
+    margin: 20px 0 12px;
+}
+
+.footy .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+    transition: 0.2s;
+}
+
+.footy .namee {
+    color: #8f9296;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footy .footer-center {
+    width: 35%;
+}
+
+.footy .footer-center i {
+    background-color: #33383b;
+    color: #fff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footy .footer-center i.fa-envelope,
+.footy .footer-center i.fa-location-dot,
+.footy .footer-center i.fa-phone {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footy .footer-center p {
+    display: inline-block;
+    color: white;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footy .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-style: 14px;
+    line-height: 2;
+}
+
+.footy .footer-center p a {
+    color: rgb(255, 255, 255);
+}
+
+.footy .footer-right {
+    width: 30%;
+}
+
+.footy .footer-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footy .footer-about span{
+    display: block;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footy .footer-icons{
+    margin-top: 25px;
+}
+
+.footy .footer-icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 4px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+    transition: 0.2s;
+}
+
+.footy .footer-icons a:hover{
+    background-color: #3f71ea;
+}
+
+.footer-links a:hover{
+    color: #3f71ea;
+}
+
+@media(max-width: 880px){
+    .footy .footer-left, .footy .footer-center, .footy .footer-right{
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footy .footer-center i{
+        margin-left: 0;
+    }
+}
