@@ -624,4 +624,8 @@ i{
     .stones{
         display: none;
     }
+
+    .logo-name{
+        font-size: 20px
+    }
 }
