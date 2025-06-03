@@ -334,7 +334,7 @@ footer {
     color: #3f71ea;
 }
 
-@media(max-width: 880px){
+@media(max-width: 770px){
     .footy{
         display: none;
     }
