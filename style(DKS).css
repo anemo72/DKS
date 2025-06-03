@@ -538,7 +538,7 @@ i{
     margin-left: 25px;
 }
 
-@media screen and (max-width: 770px){
+@media screen and (max-width: 740px){
     
     body{
         width: 100%;
@@ -572,7 +572,7 @@ i{
         left: 5%;
     }
     .hero-section h1{
-        font-size: 60px;
+        font-size: 40px;
     }
     .next-btn{
         display: none;
